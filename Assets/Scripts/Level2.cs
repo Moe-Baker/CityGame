@@ -4,15 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class Level2 : MonoBehaviour
+public class Level2 : Level
 {
-
-
-    public Text PointsText;
-    public Text PopulationText;
-    public Text BudgetText;
-
-
     public Text FinalResultPointsText;
     public Text FinalResultPopulationText;
 
@@ -61,10 +54,6 @@ public class Level2 : MonoBehaviour
 
     public GameObject IsD7Visible;
     public GameObject IsD7OptionsVisible;
-
-    public Text AssistanceText;
-    public Text GeneralText;
-
 
     string[] Talks = new string[100];
 
@@ -878,59 +867,6 @@ public class Level2 : MonoBehaviour
         CurrentState = 62;
         MyManageState();
     }
-
-
-
-
-
-
-
-
-
-
-
-
-    IEnumerator TypeSentenceGeneralText(string sentence)
-    {
-
-        GeneralText.text = "";
-        foreach (char letter in sentence.ToCharArray())
-        {
-            GeneralText.text += letter;
-            yield return null;
-        }
-    }
-
-
-    IEnumerator TypeSentenceAssistanceText(string sentence)
-    {
-
-        AssistanceText.text = "";
-        foreach (char letter in sentence.ToCharArray())
-        {
-            AssistanceText.text += letter;
-            yield return null;
-        }
-    }
-
-
-    void PointCals(int num)
-    {
-        PointsText.text = (int.Parse(PointsText.text) + num).ToString();
-    }
-
-    void PopCals(int num)
-    {
-        PopulationText.text = PopulationText.text.Remove(PopulationText.text.Length - 1);
-        PopulationText.text = (int.Parse(PopulationText.text) + num).ToString() + "%";
-    }
-
-    void BudgetCals(int num)
-    {
-        BudgetText.text = BudgetText.text.Remove(BudgetText.text.Length - 1);
-        BudgetText.text = (int.Parse(BudgetText.text) + num).ToString() + "%";
-    }
-
 
     public void BackToMenu()
     {

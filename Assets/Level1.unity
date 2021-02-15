@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -172,6 +173,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -305,6 +307,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -378,6 +381,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -519,6 +523,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -588,6 +593,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0.32941177, b: 0.5882353, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -646,6 +652,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -743,6 +750,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0.32941177, b: 0.5882353, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -877,6 +885,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -958,6 +967,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0.32941177, b: 0.5882353, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1083,6 +1093,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1156,6 +1167,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1299,6 +1311,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1377,6 +1390,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1450,6 +1464,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1528,6 +1543,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1601,6 +1617,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1713,6 +1730,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1848,6 +1866,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1940,6 +1959,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2039,8 +2059,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1147969654}
-        m_MethodName: BackToLevelMenu
+      - m_Target: {fileID: 1147969655}
+        m_MethodName: Next
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2065,6 +2085,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2138,6 +2159,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2154,9 +2176,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: " \u0647\u0631\uFEAA\uFED7 \uFEF2\uFEDF\uFE8E\uFEE3 \uFEB0\uFEA0\uFECB \uFEAA\uFEF3\uFEAA\uFEA4\uFE98\uFE91
-    \uFEF2\uFEDF\uFE8E\uFEE4\uFEDF\u0627 \uFEE2\uFEB4\uFED8\uFEDF\u0627 \u0645\uFE8E\uFED7
-    \uFEAA\uFED8\uFED3 \uFEEA\uFEF4\uFEE0\uFECB\u0648\n\r.\u2026\uFEAE\uFEF3\uFEAA\uFED8\uFE98\uFEDF\u0627\u0648
+  m_Text: " \u0647\u0631\uFEAA\uFED7 \uFEF2\uFEDF\uFE8E\uFEE3 \uFEB0\uFEA0\uFECB
+    \uFEAA\uFEF3\uFEAA\uFEA4\uFE98\uFE91 \uFEF2\uFEDF\uFE8E\uFEE4\uFEDF\u0627 \uFEE2\uFEB4\uFED8\uFEDF\u0627
+    \u0645\uFE8E\uFED7 \uFEAA\uFED8\uFED3 \uFEEA\uFEF4\uFEE0\uFECB\u0648\n\r.\u2026\uFEAE\uFEF3\uFEAA\uFED8\uFE98\uFEDF\u0627\u0648
     \uFEAE\uFEDC\uFEB8\uFEDF\u0627 \uFEAE\uFED3\u0627\u0648 \u0627\uFEEE\uFEE0\uFE92\uFED8\uFE97\u0648\r\n\r.\uFEDE\uFEF4\uFEE0\uFEA0\uFEDF\u0627\uFEAA\uFE92\uFECB
     \uFEAA\uFEE4\uFEA3\u0627 \uFEAA\uFEE4\uFEA4\uFEE3 .\u0623.\u0645\n\uFE94\uFEF4\uFEE0\uFEA4\uFEE4\uFEDF\uFE8E\uFE91
     \uFEF2\uFEB4\uFEF4\uFE8B\uFEAE\uFEDF\u0627 \uFEE2\uFEB4\uFED8\uFEDF\u0627 \uFEB2\uFEF4\uFE8B\u0631\n.\"\uFE94\uFEF4\uFEE0\uFEA4\uFEE4\uFEDF\u0627
@@ -2230,6 +2252,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2280,6 +2303,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2432,6 +2456,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2505,6 +2530,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2582,6 +2608,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2676,6 +2703,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2833,6 +2861,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2906,6 +2935,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3040,6 +3070,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3109,6 +3140,8 @@ MonoBehaviour:
   PointsText: {fileID: 814847099}
   PopulationText: {fileID: 129655988}
   BudgetText: {fileID: 769478314}
+  AssistanceText: {fileID: 814907131}
+  GeneralText: {fileID: 1214248893}
   CurrentState: 0
   IsAssistanceGeneralTextVisible: {fileID: 635729880}
   FinalResultPointsText: {fileID: 279192653}
@@ -3131,8 +3164,6 @@ MonoBehaviour:
   IsD5OptionsVisible: {fileID: 0}
   IsD6Visible: {fileID: 1438163212}
   IsD6OptionsVisible: {fileID: 603134596}
-  AssistanceText: {fileID: 814907131}
-  GeneralText: {fileID: 1214248893}
 --- !u!114 &1147969656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3375,6 +3406,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3472,6 +3504,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3553,6 +3586,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0.32941177, b: 0.5882353, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3622,6 +3656,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3755,6 +3790,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3828,6 +3864,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3961,6 +3998,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4035,6 +4073,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4114,6 +4153,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4188,6 +4228,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4410,6 +4451,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4426,11 +4468,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: " \uFE94\uFED7\uFEAE\uFEB3 \uFE94\uFE9B\u062F\uFE8E\uFEA3 \uFEE6\uFECB \uFE8E\uFECF\uFEFC\uFE91
-    \u0667\u0668 \uFEE6\uFECB \uFEDE\uFED8\uFEF3 \uFEFB \uFE8E\uFEE3 \uFE94\uFED8\uFEC4\uFEE8\uFEE4\uFEDF\u0627
-    \u0645\uFE8E\uFEB4\uFED7\u0623 \uFECA\uFEF4\uFEE4\uFE9F \u0648 \uFEF2\uFEB4\uFEF4\uFE8B\uFEAE\uFEDF\u0627
-    \uFEE2\uFEB4\uFED8\uFEDF\u0627 \uFBFD\uFED8\uFEE0\uFE97 \uFEAA\uFED8\uFED3\n\u0621\u0627\uFEEE\uFEB3
-    \uFEAA\uFEA3 \uFBFD\uFEE0\uFECB \uFE94\uFEC3\uFEAE\uFEB8\uFEDF\uFE8E\uFE91 \uFEE6\uFEF4\uFEE0\uFEE3\uFE8E\uFECC\uFEDF\u0627
+  m_Text: " \uFE94\uFED7\uFEAE\uFEB3 \uFE94\uFE9B\u062F\uFE8E\uFEA3 \uFEE6\uFECB
+    \uFE8E\uFECF\uFEFC\uFE91 \u0667\u0668 \uFEE6\uFECB \uFEDE\uFED8\uFEF3 \uFEFB
+    \uFE8E\uFEE3 \uFE94\uFED8\uFEC4\uFEE8\uFEE4\uFEDF\u0627 \u0645\uFE8E\uFEB4\uFED7\u0623
+    \uFECA\uFEF4\uFEE4\uFE9F \u0648 \uFEF2\uFEB4\uFEF4\uFE8B\uFEAE\uFEDF\u0627 \uFEE2\uFEB4\uFED8\uFEDF\u0627
+    \uFBFD\uFED8\uFEE0\uFE97 \uFEAA\uFED8\uFED3\n\u0621\u0627\uFEEE\uFEB3 \uFEAA\uFEA3
+    \uFBFD\uFEE0\uFECB \uFE94\uFEC3\uFEAE\uFEB8\uFEDF\uFE8E\uFE91 \uFEE6\uFEF4\uFEE0\uFEE3\uFE8E\uFECC\uFEDF\u0627
     \u0648 \uFEAE\uFEB3\uFEF7\u0627 \u0642\u0631\u0623 \uFE94\uFEE0\uFEDC\uFEB8\uFEE4\uFEDF\u0627
     \u062A\u0631\uFE8E\uFE9B\u0623 \uFEAA\uFED7\u0648 .\uFE94\uFEF4\uFEE0\uFEA4\uFEE4\uFEDF\u0627
     \uFE94\uFED7\uFEAE\uFED4\uFE98\uFEE3 \u0644\u0632\uFE8E\uFEE8\uFEE3 \uFE96\uFED3\uFEAA\uFEEC\uFE98\uFEB3\u0627
@@ -4562,6 +4605,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4635,6 +4679,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4712,6 +4757,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4728,8 +4774,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u0640\uFEEB \u0661\u0664\u0664\u0662 \uFEAE\uFED4\uFEBB \u0661\u0660 :\uFEA6\uFEF3\u0631\uFE8E\uFE98\uFEDF\u0627\n\uFEE2\u0662\u0660\u0661\u0660
-    \uFEAE\uFE92\uFEE4\uFE98\uFE92\uFEB3 \u0662\u0667 :\uFED6\uFED3\u0627\uFEEE\uFEE4\uFEDF\u0627\n:\uFE94\uFEF4\uFEE0\uFEA4\uFEE4\uFEDF\u0627
+  m_Text: "\u0640\uFEEB \u0661\u0664\u0664\u0662 \uFEAE\uFED4\uFEBB \u0661\u0660
+    :\uFEA6\uFEF3\u0631\uFE8E\uFE98\uFEDF\u0627\n\uFEE2\u0662\u0660\u0661\u0660 \uFEAE\uFE92\uFEE4\uFE98\uFE92\uFEB3
+    \u0662\u0667 :\uFED6\uFED3\u0627\uFEEE\uFEE4\uFEDF\u0627\n:\uFE94\uFEF4\uFEE0\uFEA4\uFEE4\uFEDF\u0627
     \uFEAA\uFEE4\uFE98\uFECC\uFEE3 \uFEE2\uFEF3\uFEAE\uFEDC\uFEDF\u0627 \uFEAA\uFEF4\uFEB4\uFEDF\u0627\n\u061B\uFEAA\uFECC\uFE91\u0648
     \u060C\uFEEA\uFE97\uFE8E\uFEDB\uFEAE\uFE91\u0648 \uFBFD\uFEDF\uFE8E\uFECC\uFE97
     \uFEEA\uFEE0\uFEDF\u0627 \uFE94\uFEE4\uFEA3\u0631\u0648 \uFEE2\uFEDC\uFEF4\uFEE0\uFECB
@@ -4794,6 +4841,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4934,6 +4982,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5063,6 +5112,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5197,6 +5247,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5270,6 +5321,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5348,6 +5400,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5364,7 +5417,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0639\uFEEE\uFE9F\u0631"
+  m_Text: "\u0645\uFEAA\uFED8\uFE97"
 --- !u!222 &1788974304
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5481,6 +5534,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5554,6 +5608,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5689,6 +5744,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5799,6 +5855,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5928,6 +5985,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6001,6 +6059,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6134,6 +6193,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6207,6 +6267,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6340,6 +6401,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6452,6 +6514,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0.32941177, b: 0.5882353, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []

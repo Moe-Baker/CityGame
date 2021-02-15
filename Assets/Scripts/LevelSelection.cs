@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class Levels : MonoBehaviour
+public class LevelSelection : MonoBehaviour
 {
     public Text LevelTitle;
     public Text Level1Goals;
@@ -47,6 +47,7 @@ public class Levels : MonoBehaviour
 
     private void Start()
     {
+        PlaySession.Clear();
         HideAllDesc();
         Level1Goals.enabled = true;
     }

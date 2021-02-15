@@ -5,25 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class Intro : MonoBehaviour
 {
-    bool loadingStarted = false;
-    float secondsLeft = 0;
+    [SerializeField]
+    float duration = 5;
 
     void Start()
     {
-        StartCoroutine(DelayLoadLevel(5));
+        StartCoroutine(DelayLoadLevel());
     }
 
-    // Update is called once per frame
- 
-
-    IEnumerator DelayLoadLevel(float seconds)
+    IEnumerator DelayLoadLevel()
     {
-        secondsLeft = seconds;
-        loadingStarted = true;
-        do
-        {
-            yield return new WaitForSeconds(1);
-        } while (--secondsLeft > 0);
+        yield return new WaitForSeconds(duration);
 
         SceneManager.LoadScene("Menu");
     }

@@ -47,9 +47,8 @@ public class LevelSelection : MonoBehaviour
 
     private void Start()
     {
-        PlaySession.Clear();
-        HideAllDesc();
-        Level1Goals.enabled = true;
+        SelectedLevelId = PlaySession.Level;
+        UpdateLevelDesc();
     }
 
     public void LoadLevel()

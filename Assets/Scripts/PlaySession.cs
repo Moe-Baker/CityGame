@@ -17,35 +17,37 @@ using UnityEditorInternal;
 using Object = UnityEngine.Object;
 using Random = UnityEngine.Random;
 
-public class PlaySession
+public static class PlaySession
 {
-    static PlaySession data = null;
-    public static PlaySession Data
+    public static int Points
     {
-        get
-        {
-            if (data == null) Start();
-
-            return data;
-        }
+        get => PlayerPrefs.GetInt(nameof(Points), 0);
+        set => PlayerPrefs.SetInt(nameof(Points), value);
     }
 
-    public int points;
-    public int population;
-    public int budget;
-
-    public static void Start()
+    public static int Population
     {
-        data = new PlaySession()
-        {
-            points = 0,
-            budget = 100,
-            population = 10,
-        };
+        get => PlayerPrefs.GetInt(nameof(Population), 10);
+        set => PlayerPrefs.SetInt(nameof(Population), value);
+    }
+
+    public static int Budget
+    {
+        get => PlayerPrefs.GetInt(nameof(Budget), 100);
+        set => PlayerPrefs.SetInt(nameof(Budget), value);
+    }
+
+    public static int Level
+    {
+        get => PlayerPrefs.GetInt(nameof(Level), 1);
+        set => PlayerPrefs.SetInt(nameof(Level), value);
     }
 
     public static void Clear()
     {
-        data = null;
+        Points = 0;
+        Population = 10;
+        Budget = 100;
+        Level = 1;
     }
 }

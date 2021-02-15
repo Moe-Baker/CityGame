@@ -28,9 +28,9 @@ public abstract class Level : MonoBehaviour
 
     protected virtual void Awake()
     {
-        Points = PlaySession.Data.points;
-        Population = PlaySession.Data.population;
-        Budget = PlaySession.Data.budget;
+        Points = PlaySession.Points;
+        Population = PlaySession.Population;
+        Budget = PlaySession.Budget;
     }
 
     protected IEnumerator TypeSentenceGeneralText(string sentence)
@@ -59,8 +59,6 @@ public abstract class Level : MonoBehaviour
     protected void PointCals(int num)
     {
         PointsText.text = (int.Parse(PointsText.text) + num).ToString();
-
-        PlaySession.Data.points = Points;
     }
 
     public int Points
@@ -79,8 +77,6 @@ public abstract class Level : MonoBehaviour
     {
         PopulationText.text = PopulationText.text.Remove(PopulationText.text.Length - 1);
         PopulationText.text = (int.Parse(PopulationText.text) + num).ToString() + "%";
-
-        PlaySession.Data.population = Population;
     }
 
     public int Population
@@ -99,8 +95,6 @@ public abstract class Level : MonoBehaviour
     {
         BudgetText.text = BudgetText.text.Remove(BudgetText.text.Length - 1);
         BudgetText.text = (int.Parse(BudgetText.text) + num).ToString() + "%";
-
-        PlaySession.Data.budget = Budget;
     }
 
     public int Budget
@@ -117,14 +111,20 @@ public abstract class Level : MonoBehaviour
 
     public void Next()
     {
+        PlaySession.Points = Points;
+        PlaySession.Population = Population;
+        PlaySession.Budget = Budget;
+
         switch (this)
         {
             case Level8 level:
+                PlaySession.Clear();
                 SceneManager.LoadScene("Levels");
                 break;
 
             default:
                 var current = int.Parse(GetType().Name.Replace("Level", ""));
+                PlaySession.Level = current + 1;
                 SceneManager.LoadScene($"Level{current + 1}");
                 break;
         }

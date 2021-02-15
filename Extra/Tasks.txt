@@ -1,0 +1,23 @@
+#Tasks:
+1)Intro Scene	[]
+2)Menu		[]
+3)Levels	[]
+4)About		[]
+5)Level One	[]
+6)Level Two	[]
+7)Level three	[]
+8)Level four	[]
+
+
+#Tasks
+1) Game Name 
+2) put Game name in level 1
+3) Score Notifications
+4) 
+5)
+
+
+for
+1) Add More Animation
+2) Include new art 
+3) 

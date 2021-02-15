@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 91f19ec601d0c6845afe83b103604b01
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Hacen Beirut Lt X3
+  fontNames:
+  - Hacen Beirut Lt X3
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 2645588faaa4bf941aeb6da8b5ae803d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

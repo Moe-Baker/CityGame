@@ -642,6 +642,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 8
+  color1: {r: 0, g: 0.32941177, b: 0.5882353, a: 1}
+  color2: {r: 0.7647059, g: 0.37254903, b: 0.17254902, a: 1}
 --- !u!1 &374076653
 GameObject:
   m_ObjectHideFlags: 0
@@ -865,6 +867,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 5
+  color1: {r: 0, g: 0.32941177, b: 0.5882353, a: 1}
+  color2: {r: 0.7647059, g: 0.37254903, b: 0.17254902, a: 1}
 --- !u!1 &538955658
 GameObject:
   m_ObjectHideFlags: 0
@@ -1010,6 +1014,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 7
+  color1: {r: 0, g: 0.32941177, b: 0.5882353, a: 1}
+  color2: {r: 0.7647059, g: 0.37254903, b: 0.17254902, a: 1}
 --- !u!1 &599745304
 GameObject:
   m_ObjectHideFlags: 0
@@ -2109,6 +2115,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 2
+  color1: {r: 0, g: 0.32941177, b: 0.5882353, a: 1}
+  color2: {r: 0.7647059, g: 0.37254903, b: 0.17254902, a: 1}
 --- !u!1 &1171780789
 GameObject:
   m_ObjectHideFlags: 0
@@ -2254,6 +2262,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 4
+  color1: {r: 0, g: 0.32941177, b: 0.5882353, a: 1}
+  color2: {r: 0.7647059, g: 0.37254903, b: 0.17254902, a: 1}
 --- !u!1 &1180629711
 GameObject:
   m_ObjectHideFlags: 0
@@ -2806,6 +2816,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 1
+  color1: {r: 0, g: 0.32941177, b: 0.5882353, a: 1}
+  color2: {r: 0.7647059, g: 0.37254903, b: 0.17254902, a: 1}
 --- !u!1 &1497889376
 GameObject:
   m_ObjectHideFlags: 0
@@ -3195,6 +3207,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 3
+  color1: {r: 0, g: 0.32941177, b: 0.5882353, a: 1}
+  color2: {r: 0.7647059, g: 0.37254903, b: 0.17254902, a: 1}
 --- !u!1 &1793949811
 GameObject:
   m_ObjectHideFlags: 0
@@ -3704,6 +3718,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 6
+  color1: {r: 0, g: 0.32941177, b: 0.5882353, a: 1}
+  color2: {r: 0.7647059, g: 0.37254903, b: 0.17254902, a: 1}
 --- !u!1 &1954641422
 GameObject:
   m_ObjectHideFlags: 0

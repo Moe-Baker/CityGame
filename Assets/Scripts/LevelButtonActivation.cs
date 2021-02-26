@@ -21,7 +21,10 @@ using Random = UnityEngine.Random;
 public class LevelButtonActivation : MonoBehaviour
 {
     [SerializeField]
-    int ID;
+    int ID = default;
+
+    public Color color1;
+    public Color color2;
 
     Button button;
 
@@ -30,8 +33,17 @@ public class LevelButtonActivation : MonoBehaviour
         button = GetComponent<Button>();
     }
 
+    void Start()
+    {
+        var colors = button.colors;
+
+        colors.normalColor = colors.highlightedColor = PlaySession.Level == ID ? color2 : color1;
+
+        button.colors = colors;
+    }
+
     void OnEnable()
     {
-        button.interactable = PlaySession.Level == ID;
+        button.interactable = PlaySession.Level >= ID;
     }
 }

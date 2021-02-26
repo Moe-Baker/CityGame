@@ -74,7 +74,7 @@ public class LevelSelection : MonoBehaviour
         }
         else if (SelectedLevelId == 5)
         {
-            SceneManager.LoadScene("Level4");
+            SceneManager.LoadScene("Level5");
 
         }
         else if (SelectedLevelId == 6)
@@ -242,7 +242,10 @@ public class LevelSelection : MonoBehaviour
         }
     }
 
-
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.R)) PlayerPrefs.DeleteAll();
+    }
 
     IEnumerator TypeSentence(string title)
     {

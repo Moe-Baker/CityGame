@@ -26,13 +26,6 @@ public abstract class Level : MonoBehaviour
     public Text AssistanceText;
     public Text GeneralText;
 
-    protected virtual void Awake()
-    {
-        Points = PlaySession.Points;
-        Population = PlaySession.Population;
-        Budget = PlaySession.Budget;
-    }
-
     protected IEnumerator TypeSentenceGeneralText(string sentence)
     {
 
@@ -111,22 +104,26 @@ public abstract class Level : MonoBehaviour
 
     public void Next()
     {
-        PlaySession.Points = Points;
-        PlaySession.Population = Population;
-        PlaySession.Budget = Budget;
+        var type = GetType();
 
-        switch (this)
-        {
-            case Level8 level:
-                PlaySession.Clear();
-                SceneManager.LoadScene("Levels");
-                break;
+        var id = Array.IndexOf(TypeCollection, type) + 2;
 
-            default:
-                var current = int.Parse(GetType().Name.Replace("Level", ""));
-                PlaySession.Level = current + 1;
-                SceneManager.LoadScene($"Level{current + 1}");
-                break;
-        }
+        Debug.Log($"{id} | {PlaySession.Level}");
+
+        if (PlaySession.Level < id) PlaySession.Level = id;
+
+        SceneManager.LoadScene("Levels");
     }
+
+    static readonly Type[] TypeCollection = new Type[]
+    {
+        typeof(Level1),
+        typeof(Level2),
+        typeof(Level3),
+        typeof(Level4),
+        typeof(Level5),
+        typeof(Level6),
+        typeof(Level7),
+        typeof(Level8),
+    };
 }
